@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Calculadora from './components/calculadora'
+import Todo from './components/Todo'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,12 @@ function App() {
 
       <Calculadora/>
 
+    </div>
+
+    <div>
+      <h1>Todo List</h1>
+
+      <Todo/>
     </div>
     </>
   )

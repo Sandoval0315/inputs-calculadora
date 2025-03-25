@@ -39,14 +39,14 @@
     border-radius: 5px;
     font-size: 1.2rem;
     cursor: pointer;
-    color: #fff;
+    color: #0e0707;
     transition: background 0.3s;
   }
   
   .btn-suma { background: #28a745; }
   .btn-resta { background: #dc3545; }
   .btn-multiplicacion { background: #007bff; }
-  .btn-divicion { background: #ffc107; }
+  .btn-division   { background: #f54df5; }
   
   .btn:hover {
     opacity: 0.8;
