@@ -1,0 +1,64 @@
+.calculadura-container{
+    max-width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #9c9c9c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .calculadora-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .calculadora-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .calculadora-button{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+    transition: background 0.3s;
+  }
+  
+  .btn-suma { background: #28a745; }
+  .btn-resta { background: #dc3545; }
+  .btn-multiplicacion { background: #007bff; }
+  .btn-divicion { background: #ffc107; }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .calculadora-resultado {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
