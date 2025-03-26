@@ -1,0 +1,36 @@
+.registro-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 85%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .listado {
+    margin-top: 20px;
+  }
+  
+  .estudiante {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px auto;
+    width: 80%;
+    border-radius: 5px;
+  }
+  
